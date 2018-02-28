@@ -26,24 +26,39 @@ public class MainActivity extends AppCompatActivity implements SwitchListener{
     public void goRight(int position) {
         FragmentManager fragmentManager = getFragmentManager();
         FragmentTransaction fragmentTransaction =fragmentManager.beginTransaction();
-        if(position==0){
+        if(position==3){
             Fragment1 nuovoFrammento =new Fragment1();
-            fragmentTransaction.replace(R.id.contenitoreFragment,nuovoFrammento);
+            fragmentTransaction.replace(R.id.contenitoreFragment,nuovoFrammento).addToBackStack(null).commit();
         }
         else{
             if(position==1){
                 Fragment2 nuovoFrammento=new Fragment2();
-                fragmentTransaction.replace(R.id.contenitoreFragment,nuovoFrammento);
+                fragmentTransaction.replace(R.id.contenitoreFragment,nuovoFrammento).addToBackStack(null).commit();
             }
             else{
                 Fragment3 nuovoFrammento=new Fragment3();
-                fragmentTransaction.replace(R.id.contenitoreFragment,nuovoFrammento);
+                fragmentTransaction.replace(R.id.contenitoreFragment,nuovoFrammento).addToBackStack(null).commit();
             }
         }
     }
 
     @Override
     public void goLeft(int position) {
-
+        FragmentManager fragmentManager = getFragmentManager();
+        FragmentTransaction fragmentTransaction =fragmentManager.beginTransaction();
+        if(position==2){
+            Fragment1 nuovoFrammento =new Fragment1();
+            fragmentTransaction.replace(R.id.contenitoreFragment,nuovoFrammento).addToBackStack(null).commit();
+        }
+        else{
+            if(position==3){
+                Fragment2 nuovoFrammento=new Fragment2();
+                fragmentTransaction.replace(R.id.contenitoreFragment,nuovoFrammento).addToBackStack(null).commit();
+            }
+            else{
+                Fragment3 nuovoFrammento=new Fragment3();
+                fragmentTransaction.replace(R.id.contenitoreFragment,nuovoFrammento).addToBackStack(null).commit();
+            }
+        }
     }
 }

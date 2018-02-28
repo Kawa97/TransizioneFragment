@@ -13,23 +13,4 @@
         android:layout_width="match_parent"
         android:layout_height="match_parent"/>
 
-<!--
-    <Button
-        android:id="@+id/next"
-        android:layout_height="wrap_content"
-        android:layout_width="100dp"
-        android:text="Next"
-        android:textSize="13dp"
-        android:layout_marginLeft="30dp"
-        android:layout_marginTop="500dp"/>
-
-    <Button
-        android:id="@+id/previous"
-        android:layout_height="wrap_content"
-        android:layout_width="100dp"
-        android:text="Previous"
-        android:textSize="13dp"
-        android:layout_marginLeft="280dp"
-        android:layout_marginTop="500dp"/> -->
-
 </RelativeLayout>

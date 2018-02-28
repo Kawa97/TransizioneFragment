@@ -6,6 +6,6 @@ package com.example.corsista.transizionefragment;
 
 public interface SwitchListener {
 
-    public void goRight(int position);
-    public void goLeft(int position);
+    void goRight(int position);
+    void goLeft(int position);
 }
