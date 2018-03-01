@@ -21,6 +21,7 @@ import com.example.corsista.transizionefragment.SwitchListener;
 public class Fragment1 extends Fragment {
     SwitchListener switchListener;
     int position=1;
+
     public View onCreateView(LayoutInflater layoutInflater,ViewGroup container,Bundle savedInstanceState){
         return layoutInflater.inflate(R.layout.frag1,container,false);
     }
@@ -39,6 +40,16 @@ public class Fragment1 extends Fragment {
         });
 
         Button previousButton = view.findViewById(R.id.previous);
+
+        boolean azdfhsdghgsh=getArguments().getBoolean("isnext",false);
+
+        if(azdfhsdghgsh==true){
+            previousButton.setVisibility(View.VISIBLE);
+        }
+        else
+        {
+            previousButton.setVisibility(View.INVISIBLE);
+        }
 
         previousButton.setOnClickListener(new View.OnClickListener() {
             @Override

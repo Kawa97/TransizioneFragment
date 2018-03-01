@@ -2,7 +2,8 @@
 <project version="4">
   <component name="ProjectModuleManager">
     <modules>
-      <module fileurl="file://$PROJECT_DIR$/.idea/TransizioneFragment.iml" filepath="$PROJECT_DIR$/.idea/TransizioneFragment.iml" />
+      <module fileurl="file://$PROJECT_DIR$/TransizioneFragment.iml" filepath="$PROJECT_DIR$/TransizioneFragment.iml" />
+      <module fileurl="file://C:\Users\corsista\Desktop\TransizioneFragment\.idea\TransizioneFragment.iml" filepath="C:\Users\corsista\Desktop\TransizioneFragment\.idea\TransizioneFragment.iml" />
       <module fileurl="file://$PROJECT_DIR$/app/app.iml" filepath="$PROJECT_DIR$/app/app.iml" />
     </modules>
   </component>
